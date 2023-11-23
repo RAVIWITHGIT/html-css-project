@@ -1,0 +1,251 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(252, 243, 227);
+    justify-content: space-between;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: white;
+}
+
+.left_nav {
+    width: 350px;
+    text-align: center;
+}
+
+.right_nav {
+    display: flex;
+    width: 650px;
+    color: #666;
+    font-size: 18px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 0px;
+}
+
+/* first section */
+.first_section{
+    display: flex;
+    height: 700px;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.first_section_head{
+    display: flex;
+    width: 650px;
+    color: #666;
+    font-size: 22px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 200%;
+    height: 100px;
+}
+.first_section_btn{
+    padding: 10px 25px;
+    font-size: 20px;
+    color: white;
+    border: 1px solid #387ed1;
+    background-color: #387ed1;
+}
+
+/* second section */
+.second_section{
+    /* border: 2px solid red; */
+    height: 700px;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    color: #666;
+    justify-content: space-around;
+}
+.second_section_div2{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 380px;
+}
+.list_main_div{
+    display: flex;
+    width: 450px;
+    font-size: 18px;
+    height: 130px;
+    justify-content: space-between;
+}
+.list1{
+    display: flex;
+    height: 120px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.list2{
+    display: flex;
+    height: 120px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* third section */
+.third_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 750px;
+}
+.third_section_head_para{
+    text-align: center;
+    font-size: 23px;
+    width: 500px;
+    color: #666;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 150px;
+}
+.third_section_link{
+    width: 350px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*four section  */
+.four_section{
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.four_section_div1{
+    width: 450px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.four_section_div1 h1{
+    font-size: 35px;
+    color: #666;
+
+}
+.four_section_div1 p{
+    font-size: 19px;
+    color: #666;
+}
+
+.four_section_div2{
+width: 600px;
+justify-content: center;
+display: flex;
+}
+.four_div1_child1{
+    /* border: 2px solid yellow; */
+    border: 1px solid #666;
+    width: 250px;
+    height: 180px;
+    padding: 0px 20px;
+justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.four_section_div2 p{
+    font-size: 18px;
+    text-align: center;
+    color: #666;
+}
+.four_section_div2 h1{
+    color: #666;
+}
+
+/* five section */
+.five_section{
+    display: flex;
+    height: 500px;
+    /* border: 2px solid blue; */
+    align-items: center;
+    justify-content: space-around;
+}
+.five_section_div2{
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.five_section_div2 h1{
+    font-size: 25px;
+    color: #666;
+}
+.five_section_div2 p{
+    font-size: 18px;
+    color: #666;
+}
+.five_section_div2 a{
+    text-decoration: none;
+}
+
+/* six section */
+.six_section{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.six_section h1{
+    font-size: 30px;
+    color: #666;
+}
+.six_section p{
+    font-size: 20px;
+}
+.six_section button{
+    padding: 10px 40px;
+    font-size: 20px;
+    background-color: #387ed1;
+    border: 1px solid #387ed1;
+    color: white;
+}
+
+.main4 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    text-align: justify;
+    background-color: whitesmoke;
+}
+/* eight_section */
+.eight_section{
+    padding: 20px 100px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.eight_section P{
+    font-size: 11px;
+    color: #666;
+    /* line-height: 1.9; */
+}
+.eight_section h6{
+    letter-spacing: 3px;
+    color: #666;
+    font-family: 'Open Sans', sans-serif;
+}

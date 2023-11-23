@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav-item{
+    width: 250px;
+    height: 50px;
+    /* border: 1px solid black; */
+}
+.icon{
+    font-size: 30px;
+    margin-right: 15px;
+    /* border: 1px solid black; */
+}
+.nav_second{
+    width: 500px;
+    background-color: white;
+    
+}
+.nav_btn{
+    height: 40px;
+}
+.section_first{
+    background-image: url('https://freshcart.codescandy.com/assets/images/overview/light-patten.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+}
+
+.sf_divf{
+    text-align: center;
+}
+.sf_divf p{
+    font-size: 20px;
+}
+img{
+    width: 900px;
+}
+
+/* section-second */
+.section-second{
+    width: 100%;
+    height: 350px;
+}
+
+/* section_third */
+.section_third{
+    width: 900px;
+    height: 550px;
+}
+.section_third h5 ,p{
+    color: #78817e;
+}
+.section_third_card{
+    width: 100%;
+    height: 380px;
+    display: grid;
+    /* grid-template-columns: 340px 340px 340px; */
+    grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
+    grid-template-rows: 350px;
+    grid-column-gap: 20px;
+
+}
+.third_img{
+    width: 250px;
+    padding-top: 10px;
+}
+.third_ccard{
+    width: 330px;
+    height: 370px;
+    background-color:#f0f3f2;
+    justify-content: space-evenly;
+}
+/* @media (max-width: 1160px){
+    .third_ccard{
+        display: flex;
+        flex-direction: column;
+
+    }
+} */
+
+
+/* four section */
+.four_cfirst{
+    width: 500px;
+    height: 100px;
+}
+
+.four_csecond{
+    width: 900px;
+}
+.bbb{
+    width: 420px;
+}
+
+.head{
+    width: 400px;
+}
+
+.four_csecond_even{
+    width: 1000px;
+}
+
+
+.head_even{
+    width: 450px;
+}
+
+/* last section */
+.last_section_main_div{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
+    grid-template-rows: 250px 250px;
+    padding: 50px 0px;
+}
+.item{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 372px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.item i{
+    font-size: 25px;
+}
+
+/* footer */
+.myfooter{
+    width: 100%;
+    height: 550px;
+    background-color: rgb(240, 243, 242);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer_first{
+    text-align: center;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px 0px;
+}
+.footer_first button{
+width: 200px;
+}
+
+
+
+/* media quairy */
+@media (min-width:800px) and (max-width: 1160px){
+     .four_csecond{
+        display: flex;
+        flex-direction: column;
+width: 500px;
+height: 700px;
+    }
+     .four_csecond_even{
+        display: flex;
+        flex-direction: column;
+width: 500px;
+height: 700px;
+    }
+    .sf_divs img{
+         max-width: 100%;
+         max-height:100%;
+    }
+    nav{
+        max-width: 100%;
+                max-height:100%;
+
+    }
+    .section_third{
+        height: 1000px;
+    }
+    .third_ccard {
+        margin: 100px 0px;
+    }
+    
+}
+
+@media (min-width:513px) and (max-width:799px){
+      .four_csecond{
+        display: flex;
+        flex-direction: column;
+width: 500px;
+height: 700px;
+    }
+     .four_csecond_even{
+        display: flex;
+        flex-direction: column;
+width: 500px;
+height: 700px;
+    }
+    .sf_divs img{
+         max-width: 100%;
+         max-height:100%;
+    }
+    nav{
+        max-width: 100%;
+                max-height:100%;
+
+    }
+    .nav-item{
+        width: 150px;
+        display: flex;
+    }
+    .nav-item h3{
+        font-size: 20px;
+    }
+    .icon{
+        font-size: 20px;
+    }
+
+    .nav-item{
+        width: 800px;
+    }
+    .nav_second h5{
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width:512px){
+     .four_csecond{
+        display: flex;
+        flex-direction: column;
+width: 400px;
+height: 700px;
+    }
+     .four_csecond_even{
+        display: flex;
+        flex-direction: column;
+width: 500px;
+height: 700px;
+    }
+    .sf_divs img{
+         max-width: 100%;
+         max-height:100%;
+    }
+    nav{
+        max-width: 100%;
+                max-height:100%;
+
+    }
+    .nav-item{
+        width: 150px;
+        display: flex;
+    }
+    .nav-item h3{
+        font-size: 20px;
+    }
+    .icon{
+        font-size: 20px;
+    }
+
+    .nav-item{
+        width: 600px;
+    }
+    .nav_second h5{
+        font-size: 10px;
+    }
+    .bbb{
+        width: 300px;
+    }
+    
+
+}

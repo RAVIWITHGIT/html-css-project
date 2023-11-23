@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        border: 2px solid rgb(252, 243, 227);
+        justify-content: space-between;
+        height: 60px;
+        position: fixed;
+        width: 100%;
+        top: 0px;
+        background-color: white;
+    }
+
+    .left_nav {
+        width: 350px;
+        text-align: center;
+    }
+
+    .right_nav {
+        display: flex;
+        width: 650px;
+        color: #666;
+        font-size: 18px;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0px 0px;
+    }
+
+    /* first section  */
+    .first_section {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        font-size: 25px;
+        color: #666;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+    /* second section */
+    .second_section {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 400px;
+    }
+
+    .second_section_div1 {
+        width: 480px;
+        font-size: 13px;
+        height: 350px;
+        color: #666;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .second_section_div2 {
+        width: 550px;
+        height: 250px;
+        font-size: 13px;
+        color: #666;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /* third section */
+    .third_section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+        height: 500px;
+    }
+    .third_section_div{
+        display: flex;
+    }
+
+    .third_section_img_div{
+
+        height: 350px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .third_section_img_div img{
+        width: 270px;
+        border-radius: 200px;
+    
+    }
+    .third_section_right{
+        width: 600px;
+        display: flex;
+        font-size: 12px;
+        color: #666;
+        height: 250px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    /* four section */
+    .four_section{
+        width: 100%;
+        height: 1400px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .four_ssection_child {
+        width: 400px;
+        margin: 2px 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 400px;        
+    }
+    
+    .four_ssection_child img{
+        width: 270px;
+        border-radius: 200px;
+    }
+    .bottom_section {
+        padding: 20px 100px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .bottom_section P {
+        font-size: 11px;
+        color: #666;
+        /* line-height: 1.9; */
+    }
+
+    .bottm_section h6 {
+        letter-spacing: 3px;
+        color: #666;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .main4 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    text-align: justify;
+    background-color: whitesmoke;
+}
+</style>
+
+<body>
+    <nav>
+        <div class="left_nav">
+            <a href="index.html"><img style="width: 130px;" src="https://zerodha.com/static/images/logo.svg" alt=""></a>
+        </div>
+        <div class="right_nav">
+            <a style="text-decoration: none;" href="sign_up.html"><h4>sign up</h4></a>
+            <h4>About</h4>
+            <a style="text-decoration: none;" href="product.html"> <h4>Products</h4></a>
+           
+            <h4>Pricing</h4>
+            <h4>Support</h4>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <section class="first_section">
+        <h1>We pioneered the discount broking model in India.</h1>
+        <h1>Now, we are breaking ground with our technology.</h1>
+
+    </section>
+    <section class="second_section">
+        <div class="second_section_div1">
+            <div class="child_first_section_child">
+                <h1>We kick-started operations on the 15th of August, 2010 with the goal of breaking all barriers that
+                    traders and investors face in India in terms of cost, support, and technology. We named the company
+                    Zerodha, a combination of Zero and "Rodha", the Sanskrit word for barrier.
+
+                </h1>
+            </div>
+            <div class="child_first_section_child">
+                <h1>Today, our disruptive pricing models and in-house technology have made us the biggest stock broker
+                    in India in terms of active retail clients.</h1>
+            </div>
+            <div class="child_first_section_child">
+                <h1>Over 1+ Crore clients place millions of orders every day through our powerful ecosystem of
+                    investment platforms, contributing over 15% of all Indian retail trading volumes.</h1>
+            </div>
+        </div>
+        <div class="second_section_div2">
+            <div class="child_second_section_child">
+                <h1>In addition, we run a number of popular open online educational and community initiatives to empower
+                    retail traders and investors.
+
+                </h1>
+            </div>
+            <div class="child_second_section_child">
+                <h1>Rainmatter, our fintech fund and incubator, has invested in several fintech startups with the goal
+                    of growing the Indian capital markets.</h1>
+            </div>
+            <div class="child_second_section_child">
+                <h1>And yet, we are always up to something new every day. Catch up on the latest updates on our blog or
+                    see what the media is saying about us.</h1>
+            </div>
+        </div>
+    </section>
+    <section class="third_section">
+        <h1 style="font-size: 35px; color: #666;">People</h1>
+        <div class="third_section_div">
+            <div class="third_section_img_div">
+                <img src="https://zerodha.com/static/images/nithin-kamath.jpg" alt="">
+                <h1>Nithin Kamath
+                </h1>
+                <p>Founder, CEO</p>
+            </div>
+            <div class="third_section_right">
+                <h1>Nithin bootstrapped and founded Zerodha in 2010 to overcome the hurdles he faced during his decade
+                    long stint as a trader. Today, Zerodha has changed the landscape of the Indian broking industry.
+                </h1>
+                <h1>He is a member of the SEBI Secondary Market Advisory Committee (SMAC) and the Market Data Advisory Committee (MDAC).
+
+                </h1>
+                <h1>Playing basketball is his zen.</h1>
+                <h1>Connect on Homepage / TradingQnA / Twitter</h1>
+            </div>
+        </div>
+    </section>
+    <section class="four_section">
+        <div class="four_ssection_child">
+            <img src="https://zerodha.com/static/images/Nikhil.jpg" alt="">
+            <h1>Nikhil Kamath</h1>
+            <p>Co-founder & CFO</p>
+            <p>Bio </p>
+        </div>
+        <div class="four_ssection_child">
+            <img src="https://zerodha.com/static/images/Kailash.jpg" alt="">
+            <h1>Dr. Kailash Nadh</h1>
+            <p>CTO</p>
+            <p>Bio </p>
+        </div>
+        <div class="four_ssection_child">
+            <img src="https://zerodha.com/static/images/Venu.jpg" alt="">
+            <h1>Venu Madhav</h1>
+            <p>COO</p>
+            <p>Bio </p>
+        </div>
+        <div class="four_ssection_child">
+            <img src="https://zerodha.com/static/images/Hanan.jpg" alt="">
+            <h1>Hanan Delvi</h1>
+            <p>Bio</p>
+        </div>
+        <div class="four_ssection_child">
+            <img src="https://zerodha.com/static/images/Seema.jpg" alt="">
+            <h1>Seema Patil
+            </h1>
+            <p>Director</p>
+            <p>Bio</p>
+        </div>
+        <div class="four_ssection_child">
+            <img src="https://zerodha.com/static/images/karthik.jpg" alt="">
+            <h1>Karthik Rangappa</h1>
+            <p>Chief of Education</p>
+            <p>Bio </p>
+
+        </div>
+        <div class="four_ssection_child">
+            <img src="https://zerodha.com/static/images/Austin.jpg" alt="">
+            <h1>Austin Prakesh
+            </h1>
+            <p>Director Strategy</p>
+            <p>Bio </p>
+        </div>
+    </section>
+    <div class="main4">
+
+        <div style="margin-top: 20px;"><img src="https://zerodha.com/static/images/logo.svg" height="30px"
+                width="120px">
+            <p>© 2010 - 2023, Zerodha Broking Ltd. <br>
+
+                All rights reserved.
+            </p>
+            <div><img src="https://worldofprintables.com/wp-content/uploads/2020/12/Social-Icons-01-Free-SVG.png.webp"
+                    height="200px" width="200px"></div>
+        </div>
+        <div style="margin-top: 20px;">
+            <h4>Company</h4>
+            <p>About
+                <br> <br>
+                Products <br> <br>
+                Pricing <br> <br>
+                Referral programme <br> <br>
+                Careers <br> <br>
+                Zerodha.tech <br> <br>
+                Press & media <br> <br>
+                Zerodha Cares (CSR)
+            </p>
+        </div>
+        <div style="margin-top: 20px;">
+            <h4>Support</h4>
+            <p>
+                Contact us<br> <br>
+                Support portal<br> <br>
+                Z-Connect blog<br> <br>
+                List of charges<br> <br>
+                Downloads & resources<br> <br>
+                Videos<br> <br>
+                Market overview<br> <br>
+                How to file a complaint?<br> <br>
+                Status of your complaints<br> <br>
+            </p>
+        </div>
+        <div style="margin-top: 20px;">
+            <h4>Account</h4>
+            <p>Open an account<br> <br>
+                Fund transfer <br> <br></p>
+        </div>
+        <div></div>
+
+    </div>
+
+    <section class="bottom_section">
+        <p style="line-height: 1.5;">Zerodha Broking Ltd.: Member of NSE, BSE​ &​ MCX – SEBI Registration no.:
+            INZ000031633 CDSL/NSDL: Depository
+            services through Zerodha Broking Ltd. – SEBI Registration no.: IN-DP-431-2019 Commodity Trading through
+            Zerodha Commodities Pvt. Ltd. MCX: 46025 – SEBI Registration no.: INZ000038238 Registered Address: Zerodha
+            Broking Ltd., #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School, J.P Nagar 4th Phase,
+            Bengaluru - 560078, Karnataka, India. For any complaints pertaining to securities broking please write to
+            complaints@zerodha.com, for DP related to dp@zerodha.com. Please ensure you carefully read the Risk
+            Disclosure Document as prescribed by SEBI | ICF <br><br>
+
+            Procedure to file a complaint on SEBI SCORES: Register on SCORES portal. Mandatory details for filing
+            complaints on SCORES: Name, PAN, Address, Mobile Number, E-mail ID. Benefits: Effective Communication,
+            Speedy redressal of the grievances <br><br>
+
+            Investments in securities market are subject to market risks; read all the related documents carefully
+            before investing. <br><br>
+
+            Attention investors: 1) Stock brokers can accept securities as margins from clients only by way of pledge in
+            the depository system w.e.f September 01, 2020. 2) Update your e-mail and phone number with your stock
+            broker / depository participant and receive OTP directly from depository on your e-mail and/or mobile number
+            to create pledge. 3) Check your securities / MF / bonds in the consolidated account statement issued by
+            NSDL/CDSL every month. <br><br>
+
+            "Prevent unauthorised transactions in your account. Update your mobile numbers/email IDs with your stock
+            brokers. Receive information of your transactions directly from Exchange on your mobile/email at the end of
+            the day. Issued in the interest of investors. KYC is one time exercise while dealing in securities markets -
+            once KYC is done through a SEBI registered intermediary (broker, DP, Mutual Fund etc.), you need not undergo
+            the same process again when you approach another intermediary." Dear Investor, if you are subscribing to an
+            IPO, there is no need to issue a cheque. Please write the Bank account number and sign the IPO application
+            form to authorize your bank to make payment in case of allotment. In case of non allotment the funds will
+            remain in your bank account. As a business we don't give stock tips, and have not authorized anyone to trade
+            on behalf of others. If you find anyone claiming to be part of Zerodha and offering such services, please
+            create a ticket here.</p>
+        <h6>NSE BSE MCX Terms & conditions Policies & procedures Privacy policy Disclosure For investor's attention
+            Investor charter</h6>
+    </section>
+    
+</body>
+
+</html>

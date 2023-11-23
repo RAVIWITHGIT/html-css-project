@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main_section{
+    height: 1150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.div_first{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+}
+.div_first h1{
+    font-size: 30px;
+}
+.section_first_btn > *{
+    width: 170px;
+    height: 40px;
+font-size: 15px;    
+}
+
+
+/* second div */
+.div_second{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    height: 900px;
+    flex-wrap: wrap;
+}
+.child{
+    width: 250px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img_div1,.img_div2,.img_div3,.img_div4,.img_div5,.img_div6,.img_div7,.img_div8{
+
+    width: 250px;
+    height: 300px;
+}
+.child h1{
+    font-size: 20px;
+}
+.img_div1{
+    background-image: url(https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&w=800);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img_div2{
+    background-image: url(https://images.pexels.com/photos/1148955/pexels-photo-1148955.jpeg?auto=compress&cs=tinysrgb&w=800);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img_div3{
+    background-image: url(https://images.pexels.com/photos/1813502/pexels-photo-1813502.jpeg?auto=compress&cs=tinysrgb&w=800);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img_div4{
+    background-image: url(https://images.pexels.com/photos/4352247/pexels-photo-4352247.jpeg?auto=compress&cs=tinysrgb&w=800);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img_div5{
+    background-image: url(https://images.pexels.com/photos/447592/pexels-photo-447592.jpeg?auto=compress&cs=tinysrgb&w=800);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img_div6{
+    background-image: url(https://images.pexels.com/photos/4112553/pexels-photo-4112553.jpeg?auto=compress&cs=tinysrgb&w=800);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img_div7{
+    background-image: url(https://images.pexels.com/photos/4846455/pexels-photo-4846455.jpeg?auto=compress&cs=tinysrgb&w=800);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img_div8{
+    background-image: url(https://images.pexels.com/photos/4050318/pexels-photo-4050318.jpeg?auto=compress&cs=tinysrgb&w=800);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img_div1:hover{
+    background-image: url(https://canvastemplate.com/demos/furniture/images/shop/2-1.jpg);
+
+}
+.img_div2:hover{
+    background-image: url(https://canvastemplate.com/demos/furniture/images/shop/3-1.jpg);
+}
+.img_div3:hover{
+    background-image: url(https://canvastemplate.com/demos/furniture/images/shop/4.jpg);
+}
+.img_div4:hover{
+    background-image: url(https://canvastemplate.com/demos/furniture/images/shop/5-1.jpg);
+}
+.img_div7:hover{
+    background-image: url(https://canvastemplate.com/demos/furniture/images/shop/8-1.jpg);
+}
+.img_div8:hover{
+    background-image: url(https://canvastemplate.com/demos/furniture/images/shop/9-1.jpg);
+}
