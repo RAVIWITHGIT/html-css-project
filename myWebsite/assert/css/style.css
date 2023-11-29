@@ -1,0 +1,112 @@
+a{
+    text-decoration: none;
+}
+i{
+    font-size: 2rem !important;
+    color: rgb(23, 215, 215);
+}
+
+h2{
+    font-size: 1.3em;
+}
+h1{
+    font-size: 2.1em;
+}
+/* p{
+    font-size: 1em;
+} */
+/* -------------------------- actual css --------------------------------------------------- */
+.header{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-image:linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)), url('../image/pexels-photo-574077.webp');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 100%;
+    clip-path: polygon(100% 0%,100% 75% , 50% 100% , 0 75% ,0 0);
+    /* background-position: center; */
+    position: relative;
+}
+/* .header::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    opacity: .4%;
+    background: linear-gradient(to-right,#1e5799 0%,#3ccdbb 0%,#16c9f6 100%);
+
+} */
+/* .navbar::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to-right,#1e5799 0%,#3ccdbb 0%,#16c9f6 100%);
+
+
+} */
+
+.header_main_section{
+    position: relative;
+    height: inherit;
+    text-align: center;
+}
+.header_inner_section{
+    position: absolute;
+    width: 100%;
+    top: 20%;
+}
+
+/* ---------------------------------------------------------------------- */
+.main-card{
+    text-align: center;
+}
+.child-card{
+    padding: 30px;
+    transition: 0.3s;
+    
+}
+.child-card:hover{
+    box-shadow:0px 0px 20px 0px red ;
+    transform: translateY(-20px);
+
+}
+/* .child-card h2{
+    font-size: 1.2em;
+} */
+.child-card p{
+    font-size: 0.9em;
+}
+
+/* ------------------------- End Card ------------------------------------------ */
+.offer_section{
+    background-color: rgb(214, 242, 242);
+    /* height: 100vh; */
+    /* display: block; */
+    /* width: 100%; */
+}
+.progress_heading h1{
+    font-size: 1.5em;
+}
+
+.i_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ /* -------------------------- offer_section end-------------------------  */
+
+
+  .value {
+    font-size: 2em;
+    display: block;
+    font-weight: bold;
+    /* color: #fff; */
+  }
