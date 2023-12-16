@@ -1,0 +1,348 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-size: 14px;
+    display: inline-block;
+}
+
+p {
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+    height: 100%;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+i {
+    color: #CF261A;
+}
+
+figure {
+    margin: 0px;
+
+}
+
+.btn-1 {
+    background-color: #CF261A;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.btn-1:hover {
+    background-color: #AE0E02;
+}
+
+.btn-1 a {
+    color: aliceblue;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+.btn-2 {
+    background-color: #171B25;
+    border-radius: 30px;
+}
+
+.btn-2 {
+    color: aliceblue;
+    padding: 20px 50px;
+    display: inline-block;
+}
+
+.btn-2:hover {
+    background-color: aliceblue;
+    color: #CF261A;
+}
+
+/* header */
+
+.header .social-icon i {
+    color: #CF261A;
+}
+
+.header .social-icon i:hover {
+    color: #000;
+}
+
+.header .social-details i {
+    color: #CF261A;
+}
+
+.header .logo {
+    width: 150px;
+}
+
+.header .navbar .navbar-nav .nav-item .nav-link {
+    color: black;
+    font-size: 15px;
+    padding: 0px 10px;
+    margin-left: 5px;
+    position: relative;
+}
+
+.header .navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #CF261A;
+}
+
+.header .navbar .navbar-nav .nav-item .nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0%;
+    height: 2px;
+    background-color: #CF261A;
+    transition: all .3s ease-in-out;
+}
+
+.header .navbar .navbar-nav .nav-item .nav-link:hover::before {
+    content: "";
+    width: 100%;
+    transition: all .3s ease-in-out;
+}
+
+.header .navbar .navbar-nav .nav-item .defult {
+    color: #CF261A;
+}
+
+.header .navbar .navbar-nav .nav-item .defult::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background-color: #CF261A;
+    transition: all .3s ease-in-out;
+}
+
+.header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+    background-color: #CF261A;
+    color: aliceblue;
+
+}
+
+.header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+    padding: 15px 20px;
+    border-bottom: 1px solid #808080;
+}
+
+.header .navbar .navbar-nav .nav-item .show {
+    padding: 0px;
+    overflow: hidden;
+}
+
+/* header end */
+
+/* banner */
+
+.banner {
+    background-image: url(../images/Banner-img-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+
+.banner .container {
+    position: relative;
+    z-index: 1;
+}
+
+.banner .divider-line {
+    background-color: transparent;
+    background-image: linear-gradient(300deg, #171B25 45%, #CF261A 41%);
+    opacity: 0.7;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner .banner-title h2 {
+    font-size: 60px;
+    color: aliceblue;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.banner .banner-content p {
+    font-size: 20px;
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+
+.banner .banner-img {
+    width: 100%;
+    height: 100%;
+}
+
+/* banner end */
+
+/* services-card */
+
+.services-cards {
+    position: absolute;
+    bottom: -40%;
+    background-color: #fff;
+    transition: all .3s ease-in-out;
+}
+
+.services-cards .col-3:hover {
+    border-bottom: 3px solid #CF261A;
+}
+
+.services-cards .card-content p {
+    color: #808080;
+}
+
+/* services card end */
+
+/* Fixman-services */
+.Fixman-services {
+    margin-top: 350px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.child-1:hover {
+    box-shadow: -15px -15px #CF261A;
+}
+
+.Fixman-services .child-2:hover {
+    box-shadow: 15px 15px #CF261A;
+}
+
+.Fixman-services .child-3:hover {
+    box-shadow: 15px -15px #CF261A;
+}
+
+/* Fixman-services end */
+
+/* benefits */
+.benefits {
+    padding: 100px 50px;
+    background-color: #80808020;
+}
+
+.benefits figure img {
+    height: 600px;
+    box-shadow: -30px 30px #171B25;
+}
+
+.benefits .title p {
+    color: #CF261A;
+}
+
+.benefits .list li p {
+    font-size: 16px;
+    color: #808080;
+}
+
+.benefits .list i {
+    color: #31F279;
+}
+
+/* benefits end*/
+
+/* faq */
+.faq {
+    background-image: url(../images/Banner-img-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.faq .back-color {
+    background-color: #171B25;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    padding: 70px 50px;
+}
+
+.faq .container {
+    position: relative;
+    z-index: 1;
+}
+
+/* faq end */
+
+/* reviews */
+.reviews {
+    padding: 100px 0px;
+}
+
+.reviews .account figure {
+    width: 50px;
+}
+
+
+/* footer */
+/* footer section start */
+li {
+    list-style: none;
+}
+
+.useful-link h2 {
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.useful-link img {
+    padding-bottom: 15px;
+}
+
+.use-links {
+    line-height: 32px;
+}
+
+.use-links li i {
+    font-size: 14px;
+    padding-right: 8px;
+    color: #898989;
+}
+
+.use-links li a {
+    color: #303030;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.use-links li a:hover {
+    color: #CF261A;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* footer section end */
