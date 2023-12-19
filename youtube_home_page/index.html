@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<style>
+  body {
+    margin: 0px;
+  }
+
+  /* nav-bar */
+  .mainnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .youtube_img {
+    width: 100px;
+    height: 70px;
+  }
+
+  .search_nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .search {
+    background-color: rgb(209, 207, 207);
+    border-radius: 15px;
+  }
+
+  .glass {
+    padding-right: 10px;
+  }
+
+  .myinput {
+    width: 400px;
+    height: 25px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .microphone {
+    margin-left: 15px;
+    padding-top: 4px;
+  }
+
+  .end {
+    margin-left: 10px;
+  }
+
+  /* main page */
+  .main_section {
+    display: flex;
+    height: 520px;
+  }
+
+  .side_bar {
+    width: 170px;
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+
+  .side_first,
+  .side_second,
+  .side_third {
+    border-bottom: 2px solid black;
+  }
+
+  h5 {
+    text-align: center;
+    font-size: 18px;
+  }
+
+
+  /* main video   page   */
+
+  .main_video_page {
+    width: 1250px;
+  }
+
+  .top_tab {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+  }
+
+  p {
+    border: 2px solid green;
+    padding: 3px 20px;
+    border-top-left-radius: 7px;
+    border-end-start-radius: 12px;
+    border-top-right-radius: 11px;
+    border-end-end-radius: 7px;
+  }
+
+  .all {
+    background-color: black;
+    color: white;
+    padding: 4px 7px;
+  }
+
+  .next {
+    border: 2px solid white;
+    padding-right: 30px;
+  }
+
+  /* video  */
+  video {
+    width: 330px;
+    height: 280px;
+  }
+
+  .video_page {
+    margin-left: 50px;
+  }
+</style>
+
+<body>
+  <div class="mainnav">
+    <img class="youtube_img"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPB3cNZK952Z5EwBPbx5486Djy25XgPXy7HQ&usqp=CAU" alt="">
+    <div class="search_nav">
+      <div class="search">
+        <input class="myinput" type="text" placeholder="search here">
+        <i class="fa-solid fa-magnifying-glass glass"></i>
+      </div>
+      <div class="microphone">
+
+        <i class="fa-solid fa-microphone "></i>
+      </div>
+    </div>
+    <div class="nav_end">
+      <i class="fa-solid fa-video end "></i>
+      <i class="fa-solid fa-bell end"></i>
+      <i class="fa-solid fa-registered end" style="color: #cb2115;"></i>
+    </div>
+
+  </div> <!-- end nav-bar   -->
+  <div class="main_section">
+    <div class="side_bar">
+      <div class="side_first">
+        <h5>Home</h5>
+        <h5>Shorts</h5>
+        <h5>Subscription</h5>
+      </div>
+      <div class="side_second">
+        <h5>Libary</h5>
+        <h5>History</h5>
+        <h5>Watch later</h5>
+        <h5>Liked video</h5>
+      </div>
+      <div class="side_third">
+        <h3>Explor</h3>
+        <h5>trending</h5>
+        <h5>Shopping</h5>
+        <h5>Movie</h5>
+      </div>
+    </div> <!-- end side bar   -->
+
+    <div class="main_video_page">
+      <div class="top_tab">
+        <p class="all">All</p>
+        <p>Music</p>
+        <p>Lo-fi</p>
+        <p>Mantras</p>
+        <p>T-series</p>
+        <p>Movie</p>
+        <p>Live</p>
+        <p>Laptop</p>
+        <p class="next">></p>
+      </div> <!-- end top tab   -->
+
+      <div class="video_page">
+        <video autoplay muted loop
+          src="https://player.vimeo.com/external/204719115.sd.mp4?s=701f646b0d47c566e7c8de11fb570a6632ad9510&profile_id=164&oauth2_token_id=57447761"></video>
+        <video autoplay muted loop
+          src="https://player.vimeo.com/external/406568164.sd.mp4?s=d34348b81ceba47b6d1a03e0d07256de1d166c43&profile_id=164&oauth2_token_id=57447761"></video>
+        <video autoplay muted loop
+          src="https://player.vimeo.com/external/347925878.sd.mp4?s=4849f65072a7c616b48af9d577ca4517aeb21791&profile_id=164&oauth2_token_id=57447761"></video>
+        <video autoplay muted loop
+          src="https://player.vimeo.com/external/221214063.sd.mp4?s=2f1993f9c272e3c7ef5d96002e2182cb92c2d0b2&profile_id=164&oauth2_token_id=57447761"></video>
+        <video autoplay muted loop
+          src="https://player.vimeo.com/external/416648526.sd.mp4?s=5d51c2acbe538d07e49b603f26c02b13aa9aa5ef&profile_id=164&oauth2_token_id=57447761"></video>
+        <video autoplay muted loop
+          src="https://player.vimeo.com/external/384334233.sd.mp4?s=4ead2301c498f9b82ad795bc9699df4100e0dfb6&profile_id=164&oauth2_token_id=57447761"></video>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

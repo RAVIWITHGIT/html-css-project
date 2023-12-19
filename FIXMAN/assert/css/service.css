@@ -86,7 +86,6 @@ figure {
     padding-left:15px;
     padding-right:15px;
 }
-
 .header .social-icon i {
     color: #CF261A;
 }
@@ -168,13 +167,16 @@ figure {
     overflow: hidden;
 }
 
+/* header end */
+
+
 
 
 /* ----------------------------------- nav bar------------------------------------------ */
 /* .logo_img{
     width: 100px;
 }
-.nav_contect{
+.nav_service{
     border-bottom: 2px solid red;
     color: red !important;
 }
@@ -192,7 +194,8 @@ figure {
     display: block;
 } */
 
-/* ------------------------------------ main --------------------------------------------- */
+
+/* ------------------------------ main------------------------------------------------ */
 
 .main1{
     width: 100%;
@@ -215,11 +218,11 @@ figure {
 }
 .main1 hr{
     width: 100px;
-    border: 2px solid red;
+    border: 4px solid rgb(193, 37, 29);
 }
 
 /* ---------------------------- with_us------------------------------------------ */
-.with_us{
+.choose_service{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -227,45 +230,91 @@ figure {
     margin: 50px 0px;
 }
 
-.with_us hr{
+.choose_service hr{
     width: 100px;
     border: 2px solid red;
 }
 
-/* -------------------------- contect_us----------------------------------------- */
-.contect_man{
-    width: 24em;
-    /* margin-left: 3em; */
+/* --------------------------------- service section ------------------------------------ */
+.service_text_div h1{
+    font-family: 'Oswald', sans-serif;
+
+
+}
+.service_text_div hr{
+    width: 100px;
+    margin: 20px auto;
+    border: 2px solid red;
+
+}
+.service_img{
+    width: 80px;
+    margin-bottom: 20px;
+}
+.service_btn_div{
+    margin-top: 40px;
+    /* border: 1px solid red; */
+}
+.h_div{
+    transition: all 0.5s;
+}
+.h_div:hover{
+    box-shadow: -18px -18px red;
+}
+.h_div hr{
+    width: 100px;
+    margin: 20px auto;
+    border: 2px solid red;
 
 }
 
-/* ---------------------------------- media -------------------------------------- */
-.media{
-    background-color: red;
+
+/* ----------------------------- repair section ------------------------------------- */
+.repair_section{
+    margin: 100px 0px;
 }
-.media_item{
-    /* display: flex; */
-    /* border: 1px solid white; */
-    text-align: center;
-    /* justify-content: center; */
-    /* align-items: center; */
-    padding: 2em 5em;
+.repair_right_div{
+    padding-top: 40px;
+    padding-left: 40px;
 }
-.icon_div{
-    /* border: 1px solid black; */
-    display: flex;
-    justify-content: center;
-}
-.icon_div i{
-    font-size: 3em;
+
+.repair_right_div h1{
+    font-family: 'Oswald', sans-serif;
+
+
 }
 
 
-/* ---------------------------------map_section---------------------------------- */
+.repair_right_div hr{
+    width: 100px;
+    border: 2px solid red;
 
+}
 
+.repair_img{
+    border-radius: 80px;
+    width: 90px;
+}
 
+.repair_card{
+    padding: 20px 0px;
+}
+.repair_card_bg{
+    background-color: rgb(230, 249, 250);
+}
+.repair_card:hover{
+    border: 1px solid red !important;
+}
 
+.repair_card hr{
+    width: 100px;
+    margin: 20px auto;
+    border: 2px solid red;
+
+}
+
+/* ----------------------------- benefit section ------------------------------------------- */
+ 
 
 /* -------------------------- footer section -------------------------------------- */
 li {
@@ -422,4 +471,64 @@ a {
     }
     
     /* header end */
+
+    /* banner */
+    .banner .banner-block{
+        padding: 50px 0px;
+    }
+    .banner .banner-title h2 {
+        font-size: 43px;
+        color: aliceblue;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .banner .banner-content p{
+        font-size: 15px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .banner .banner-btn{
+        display: flex;
+        justify-content: center;
+    }
+    /* banner end */
+
+    /* Fixman-services */
+    .Fixman-services .card{
+        margin-bottom: 15px;
+    }
+    /* Fixman-services end*/
+
+    /* benefits */
+    .benefits .benefits-img img{
+        height: auto;
+        margin-bottom: 50px;
+    }
+    /* benefits end */
+
+     /* benefits */
+     .benefits .benefits-content{
+        margin-bottom: 50px;
+    }
+    /* benefits end */
+
+    /* process */
+
+    .process .process-img{
+        margin-bottom: 50px;
+    }
+
+    /* process end */
+
+    /* reviews */
+    .reviews .reviews-card{
+        margin-bottom: 20px;
+    }
+
+    /* reviews end */
+
+    .footer{
+        width: 100%;
+    }
 }
