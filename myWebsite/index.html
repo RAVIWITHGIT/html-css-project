@@ -1,62 +1,59 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="assert/css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-
-<body>
-  <div class="header">
-    <nav class="navbar navbar-expand-lg  ">
-      <div class="container ">
-        <a class="navbar-brand" href="#"><img src="assert/image/Untitled_design__1_-removebg-preview.png"
-            style="width: 50px;" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">price</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">about</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">contact</a>
-            </li>
-
-          </ul>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ravi Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assert/css/style.css">
+    <link rel="icon" type="image/x-icon" href="assert/image/coding.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="assert/js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="header">
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="assert/image/Untitled_design__1_-removebg-preview.png"
+              style="width: 50px;" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" ></span>
+          </button>
+          <div class="collapse navbar-collapse h" id="navbarSupportedContent" >
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#price">price</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contect">contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footerid">about</a>
+              </li>
+  
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <section class="header_main_section text-capitalize">
-      <div class="header_inner_section text-white">
-        <h1>we are the web devloper</h1>
-        <p>we create the world best website</p>
-        <div class="anchor">
-          <a href="" class="text-white">about us</a>
-          <a href="" class="text-white">contact</a>
+      </nav>
+      <section class="header_main_section text-capitalize">
+        <div class="header_inner_section text-white">
+          <h1>we are the web devloper</h1>
+          <p>we create the world best website</p>
+          <div class="anchor">
+            <a href="" class="text-white">about us</a>
+            <a href="" class="text-white">contact</a>
+          </div>
         </div>
-      </div>
-    </section>
-  </div>
-  <!---------------------- end header-------------------------------- -->
+      </section>
+    </div>
+    <!---------------------- end header-------------------------------- -->
   <div class="main-card my-5">
     <div class="container text-uppercase">
       <div class="row ">
@@ -83,7 +80,7 @@
 
   <!-- --------------------------- End card -------------------------------------->
 
-  <section class="offer_section">
+  <section class="offer_section" id="services" >
     <div class="container">
       <div class="row">
         <div class="col text-center pt-5">
@@ -197,7 +194,7 @@
   </section>
 
   <!-- ------------------------------ counting number section end -------------------- -->
-  <section class="price_section">
+  <section class="price_section" id="price">
     <div class="container">
       <div class="row">
         <div class="col text-center pb-5">
@@ -401,7 +398,7 @@
   </section>
 
   <!-- -------------------------------------- contect us--------------------------------- -->
-  <section class="contect_us">
+  <section class="contect_us" id="contect">
     <div class="container">
       <div class="row">
         <div class="col text-center pb-5">
@@ -470,7 +467,7 @@
           <p>the world had become so fast paced that people don't want to stand by reading a page of information to be they would much rather look at a presentation and understand the message</p>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6 col-12 text-center">
+      <div class="col-lg-4 col-md-6 col-12 text-center footer_links">
         <div>
           <h3>navigaion linke</h3>
           <li><a href="">home</a></li>
@@ -499,40 +496,11 @@
   <div class="mt-5 text-center">
     <p>copyright 2019 all rights reserved | this template is made by ravi lakshakar</p>
   </div>
+  <div class="scrolltop">
+    <i class="fa-solid fa-arrow-up" onclick="topfunction()" id="myarrow"></i>
+  </div>
 </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-    crossorigin="anonymous"></script>
-  <script src="js/app.js"></script>
-  <script>
-    const counters = document.querySelectorAll('.value');
-    const speed = 200;
-
-    counters.forEach(counter => {
-      const animate = () => {
-        const value = +counter.getAttribute('akhi');
-        const data = +counter.innerText;
-
-        const time = value / speed;
-        if (data < value) {
-          counter.innerText = Math.ceil(data + time);
-          setTimeout(animate, 1);
-        } else {
-          counter.innerText = value;
-        }
-
-      }
-
-      animate();
-    });
-  </script>
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
 </html>

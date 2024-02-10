@@ -1,0 +1,21 @@
+:root{
+    --bg-primary-color:#130f40;
+    --btn-bgcolor:#3742fa;
+}
+
+h1{
+    font-size: 2.4rem;
+    font-weight: bold;
+font-family: 'Protest Strike', sans-serif;
+
+}
+
+p{
+    font-size: 1.1rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+.btn{
+    background-color: var(--btn-bgcolor);
+
+}
