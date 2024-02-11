@@ -1,0 +1,91 @@
+:root{
+    --primary-color:hsl(0, 0%, 40%); 
+    --secondary-color: hsl(0, 0%, 60%); 
+    --paragraph-size:0.9rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:  var(--primary-color) ;
+}
+
+p{
+    color:var(--secondary-color);
+    font-size: var(--paragraph-size);
+    font-weight: bold;
+    
+}
+li{
+    list-style: none;
+    line-height: 2rem;
+}
+
+
+/* -----------------------------************** set manulally***************---------------------- */
+
+#carouselExample{
+    background-color:rgb(239, 239, 239);
+    }
+    
+    #title{
+        color:#59ab6e
+    }
+    
+    i{
+        position: relative;
+    }
+    .cart{
+        font-size: 10px;
+        background-color: #e9eef5;
+        padding: 5px;
+        border-radius: 23px;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+    }
+    .user{
+        font-size: 10px;
+        background-color: #e9eef5;
+        padding: 5px;
+        border-radius: 23px;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+    
+    }
+
+/* --------------------------------------------------collapsed--------------------------------- */
+@media only screen and (max-width: 992px) {
+    #collapsed_btn{
+        padding-right: 20px !important;
+        padding-left: 0px !important;
+    }
+  }
+  
+
+  /* --------------------------------- Our brand ------------------------------------------ */
+  #Our_Brands{
+    background-color: #e9eef5;
+  }
+
+/* ---------------************** footer **********************--------------------- */
+footer{
+    background-color: #212934;
+}
+
+.footer-i{
+    margin: 0px 12px;
+    font-size: 1.5rem;
+}
+#footer_input{
+    background-color: hsl(215, 22%, 17%) !important;
+    border: 2px solid  hsl(215, 22%, 10%) !important;
+}
+
+.footer_copyright{
+    padding: 20px 80px;
+}
+@media only screen and (max-width:600px) {
+    .footer_copyright {
+        padding: 0;
+    }   
+}
