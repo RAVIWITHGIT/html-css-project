@@ -1,0 +1,15 @@
+#about{
+    background-color: aqua;
+}
+
+#Testimoniul{
+    background-color: hsl(271, 76%, 80%);
+}
+#Testimoniul img{
+    width: 100%;
+    border-radius: 40px;
+    /* background-color: hsl(271, 76%, 80%); */
+}
+#Start_project{
+    background-color: hsl(16, 100%, 80%);
+}

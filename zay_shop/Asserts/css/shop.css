@@ -2,16 +2,20 @@
     --primary-color:hsl(0, 0%, 40%); 
     --secondary-color: hsl(0, 0%, 60%); 
     --paragraph-size:0.9rem;
+    --font-familyHeading:'Quicksand', sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6{
     color:  var(--primary-color) ;
+    font-family: var(--font-familyHeading);
+
 }
 
 p{
     color:var(--secondary-color);
     font-size: var(--paragraph-size);
     font-weight: bold;
+    font-family: var(--font-familyHeading);
     
 }
 li{
@@ -52,6 +56,9 @@ li{
         left: 10px;
     
     }
+    a:hover{
+        color: #59ab6e !important;
+    }
 
 /* --------------------------------------------------collapsed--------------------------------- */
 @media only screen and (max-width: 992px) {
@@ -61,6 +68,53 @@ li{
     }
   }
   
+  /* ---------------------------------------- card--------------------------------------------- */
+  .card {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 69%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: #59ab6e;
+  }
+  
+  .card:hover .overlay {
+    opacity: 0.3;
+  }
+  
+  .icon {
+    color: white;
+    width: 35px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .icon i{
+    padding: 5px 10px;
+    background-color: #212934;
+  }
+  
+  .fa-user:hover {
+    color: #eee;
+  }
 
   /* --------------------------------- Our brand ------------------------------------------ */
   #Our_Brands{

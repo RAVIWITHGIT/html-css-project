@@ -2,16 +2,20 @@
     --primary-color:hsl(0, 0%, 40%); 
     --secondary-color: hsl(0, 0%, 60%); 
     --paragraph-size:0.9rem;
+    --font-familyHeading:'Quicksand', sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6{
     color:  var(--primary-color) ;
+    font-family: var(--font-familyHeading);
+
 }
 
 p{
     color:var(--secondary-color);
     font-size: var(--paragraph-size);
     font-weight: bold;
+    font-family: var(--font-familyHeading);
     
 }
 li{
@@ -55,6 +59,9 @@ li{
 
 #categories{
     background-color: #e9eef5;
+}
+a:hover{
+    color: #59ab6e !important;
 }
 /* ---------------************** footer **********************--------------------- */
 footer{
